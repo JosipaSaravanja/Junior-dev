@@ -3,7 +3,11 @@ export const AbilityLine = (props) => {
   return (
     <div className="ability">
       <div className="ability-line-name">{props.name}</div>
-      <div className="ability-line-info">{props.value}</div>
+      <div className="ability-line-info">
+        <div width={props.value + "%"}>
+        {props.value}
+        </div>
+      </div>
     </div>
   );
 };

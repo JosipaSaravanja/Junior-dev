@@ -1,5 +1,5 @@
 import abilityData from './abilitydata.json'
-import { InfoLine } from './info-line';
+import { AbilityLine } from './ability-line';
 
 export const Ability = () =>{
     return (
@@ -7,7 +7,7 @@ export const Ability = () =>{
       <h2 className="title">Sposobnosti</h2>
       <hr />
       {abilityData.map((el)=>{
-        return( <InfoLine name ={el.name} value={el.value}></InfoLine>)
+        return( <AbilityLine name ={el.name} value={el.value}></AbilityLine>)
       })}
     </div>
     );

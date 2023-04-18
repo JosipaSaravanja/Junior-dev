@@ -61,3 +61,15 @@ hr{
   height: 1px;
   background-color:  rgb(26, 27, 31);
   border: none;}
+
+  .ability-line-info{
+    background-color: yellow;
+  }
+
+  .ability-line-info *{
+    background-color: orange;
+  }
+
+  .ability-line-info{
+    width: 100%;
+  }
