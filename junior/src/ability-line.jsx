@@ -4,7 +4,7 @@ export const AbilityLine = (props) => {
     <div className="ability">
       <div className="ability-line-name">{props.name}</div>
       <div className="ability-line-info">
-        <div width={props.value + "%"}>
+        <div style={{width: props.value + "%"}}>
         {props.value}
         </div>
       </div>

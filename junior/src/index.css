@@ -68,8 +68,13 @@ hr{
 
   .ability-line-info *{
     background-color: orange;
+    text-align: right;
   }
 
   .ability-line-info{
     width: 100%;
+  }
+  
+  .ablity{
+    color: orange
   }
